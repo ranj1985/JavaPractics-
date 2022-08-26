@@ -1,0 +1,113 @@
+package JavaClass;
+
+public class LogicOperator {
+
+	public static void main(String[] args) {
+		
+		// Logic operator ||,&&,!
+		
+		// and operator---&&
+		
+		//True-true=true
+		System.out.println(5>4 && 3>2);
+		
+		// false-true=false
+		System.out.println(3>5 && 7<8);
+		System.out.println(2>1 && 6<5 );
+		
+		// true-false=false
+		
+		System.out.println(3==3 && 3<1);
+		
+		// false-false=false
+		System.out.println(4<3 && 2<3);
+		
+		// or operator---||
+		
+		//true-true=true
+		
+		System.out.println(5>=4 || 4==4);
+		
+		// false-true=true
+		System.out.println(8<7 || 7>6);
+		
+		//true-false=true
+		System.out.println(1<2 || 1>2);
+		
+		// false-false=false
+		System.out.println(3<2 || 2<1);
+		
+		// not operator---!
+		System.out.println(!(8==7));
+		System.out.println(!(7>2));
+		System.out.println();
+		
+		
+		//08/11/2022
+		// && (logic and) Returns true if both statements are true otherwise return false
+		//True-True=>True
+		//True-False=>False
+		//False-True=>False
+		//False-False=>False
+		
+		int a1=10;
+		int b1=20;
+		System.out.println(a1<b1 && b1>a1);
+		System.out.println(a1<b1 && b1==a1);
+		System.out.println(b1<a1 && a1==b1);
+		System.out.println(a1>=b1 && b1<=a1);
+		System.out.println();
+		
+		// || (logic or) Returns true if one of the statements is true
+		
+		int aa=10;
+		int bb=12;
+		System.out. println(aa<bb || bb>aa);
+		System.out.println(bb>aa || aa>=bb);
+		System.out.println(aa<=bb || bb>=aa);
+		System.out.println( aa>bb || bb<aa);
+		System.out.println();
+		
+		//! ( logic not)
+		System.out.println(!(aa<bb));
+		System.out.println();
+		
+		// 08/16/2022
+		 //&& and logic
+       int c1=10;
+       int d1=20;
+       System.out.println("And operator");
+      System.out.println(c1<d1 && d1>c1);
+      System.out.println(c1<d1 && c1>d1);
+      System.out.println(c1<d1 && d1<=c1);
+      System.out.println(d1<c1 && d1==c1);
+       
+       System.out.println("Or operator");
+       
+       System.out.println("And operator");
+       System.out.println(c1<d1 || d1>c1);
+       System.out.println(c1<d1 || c1>d1);
+       System.out.println(c1<d1 || d1<=c1);
+       System.out.println(d1<c1 || d1==c1);
+       
+       System.out.println(" not true");
+        
+       System.out.println(!(c1<d1));
+
+
+int c2=10;
+int d2=23;
+System.out.println(c2<d2);
+int c3=10;
+int d3=23;
+System.out.println(c3<d3);
+
+int c4=10;
+int d4=23;
+System.out.println(c4<d4);
+
+System.out.println(c4+d4);
+		
+	}
+
+}
