@@ -1,0 +1,143 @@
+package JavaClass;
+
+public class ConditionalStatements {
+
+	public static void main(String[] args) {
+		
+		// Program 1
+		int a= 8;
+		if(a>9) {
+			System.out.println("Print true");
+		}
+		else {
+			System.out.println("Print False");
+		}
+		
+		// Program 2 check the grater number
+		int b= 20;
+		int c= 30;
+		if(b>c) {
+			System.out.println("B is greater");
+		}
+		else {
+			System.out.println("C is greater");
+			
+		}
+		
+		// Program 3
+		int d = -10;
+		if(d>100) {
+			
+			System.out.println("Print number is positive");
+		}
+		else {
+			System.out.println("Print number is negative");
+		}
+		
+		//Program 4
+		
+		int numberofCuppon= 12;
+		if(numberofCuppon>0 && numberofCuppon>15) {
+			System.out.println("Dollar ten is reduce");
+		}
+		else if (numberofCuppon >=12 && numberofCuppon<11) {
+			System.out.println("Dollar twenty is reduce");
+		}
+		else if(numberofCuppon>15) {
+			System.out.println("Dollar fifty is reduce");
+		}
+		else{
+			System.out.println("Cuppon is not apply");
+		}
+			// program 5
+		
+		int numberofRewardPoint= 500;
+		
+		if(numberofRewardPoint>0 && numberofRewardPoint<=50) {
+			System.out.println("get five dollar reward point ");
+		}
+		if(numberofRewardPoint>100 && numberofRewardPoint<=200) {
+			System.out.println("get ten dollar reward point");
+		}
+		if(numberofRewardPoint>300 && numberofRewardPoint<=500) {
+			System.out.println("get fifty dollar reward point");
+		}
+		
+		//program 6 
+		
+		int total= 99;
+		if(total>90) {
+			System.out.println("A grade");
+		}
+		
+		else if(total>80) {
+			System.out.println("B grade");
+		}
+		else if(total> 70) {
+			System.out.println("C grade");
+		}
+		else{
+			System.out.println("Result is Fail");
+		}
+		
+		// program 7
+		
+		int age= 16;
+		int age1=18;
+		int age2=20;
+		
+		if(age>age1) {
+			
+			if(age>age2) {
+				System.out.println("eligiable for drive");
+			}
+			else {
+				System.out.println("eligiable for vote");
+			  }
+			}
+			else 
+				
+				if(age1>age2) {
+					System.out.println("ready for the collage join");
+				}
+				else {
+					System.out.println("Able to join job");
+				}
+				
+		// program 8
+		
+		int sumtotal= 1000;
+		int sumtotal1=2000;
+		int sumtotal2=3000;
+		
+		if(sumtotal<sumtotal1) {
+			if(sumtotal<sumtotal2) {
+				System.out.println("100 dollars is discount");
+			 }
+			
+			else {
+				
+				System.out.println("No discount");
+			}
+		   }
+			else 
+				
+				if(sumtotal2>sumtotal1) {
+				System.out.println("200 dollars discount");	
+					
+				}
+				else {
+					System.out.println("50 dollars discount");
+				}
+			
+			
+			
+		}
+	
+	}		
+				
+		
+	
+	
+
+
