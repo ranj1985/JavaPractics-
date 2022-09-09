@@ -1,0 +1,49 @@
+package SecondWeekJavaClass;
+
+public class Oops1 {
+	
+	int x;
+	int z;
+	
+	public Oops1(int y,int c) {
+		
+		 x=y;
+		z=c;
+	}
+	
+	
+	String modelname;
+	String modelyear;
+	int years;
+	int price;
+	
+	public Oops1(String name, String year, int ye,int pr) {
+		
+		modelname=name;
+		modelyear=year;
+		years=ye;
+		price=pr;
+		
+	}
+	
+	
+	
+public static void main(String[]args) {
+	
+	Oops1 num= new Oops1(7,8);
+	System.out.println(num.x);
+	System.out.println(num.z);
+	
+	
+	Oops1 car=new Oops1( "Honda" ,"2020", 2022, 50000);
+	System.out.println(car.modelname);
+	System.out.println(car.modelyear);
+	System.out.println(car.years);
+	System.out.println(car.price);
+	
+	
+	
+	
+	
+}
+}
